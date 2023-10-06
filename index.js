@@ -75,7 +75,7 @@ app.post('/web-data', async (req, res) => {
             title: 'Неудалось преобрести товар',
             input_message_content: {message_text: 'Неудалось преобрести товар'}
         })
-        return res.status(500).json({});
+        return res.status(200).json({});
     }
 })
 
